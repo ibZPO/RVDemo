@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RVDemo</string>
+
+    <string-array name="names">
+        <item> Ashleigh Barty </item>
+        <item> Aryna Sabalenka</item>
+        <item> Gabrina Muguruza</item>
+        <item> Barbora Krejcikova </item>
+        <item> Karolina Pliskova</item>
+        <item> Maria Sakkari </item>
+        <item> Anett Kontaveit</item>
+        <item> Iga Swiatek</item>
+        <item> Paula Badosa</item>
+        <item> Ons Jabeur</item>
+    </string-array>
+
+
+</resources>
