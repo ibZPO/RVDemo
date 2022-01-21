@@ -1,5 +1,6 @@
 package edu.ib.rvdemo;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,7 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.PlayerView
     @NonNull
     @Override
     public PlayerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        Log.d("EDUIB","test");
         LayoutInflater layoutInflater=LayoutInflater.from(parent.getContext());
         View listItem=layoutInflater.inflate(R.layout.player_row,parent,false);
         PlayerViewHolder playerViewHolder= new PlayerViewHolder(listItem);
